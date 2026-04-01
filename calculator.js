@@ -64,7 +64,7 @@ LAB SETUP INSTRUCTIONS
       Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 ===================================================================
-TODO 1: Import Required Modules (in calculator.js)
+Done 1: Import Required Modules (in calculator.js)
 ===================================================================
 Goal: Import the modules and npm package you'll need.
 
@@ -213,3 +213,6 @@ After completing all TODOs, test your calculator:
 
 */
 
+import { add, subtract, multiply, divide } from "./utils/operations.js";
+import { parseNumbers, isValidOperation } from "./utils/parser.js";
+import _ from "lodash";
