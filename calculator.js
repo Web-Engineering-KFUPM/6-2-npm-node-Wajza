@@ -125,7 +125,7 @@ Example structure:
   console.log(`Result: ${result}`);
 
 ===============================================================
-TODO 4: Create Math Operation Functions (in utils/operations.js)
+Done 4: Create Math Operation Functions (in utils/operations.js)
 ===============================================================
 Goal: Implement functions that perform mathematical operations on arrays of numbers.
 
@@ -156,7 +156,7 @@ Example for add:
   }
 
 ===============================================================
-TODO 5: Create Parser Functions Using Lodash (in utils/parser.js)
+Done 5: Create Parser Functions Using Lodash (in utils/parser.js)
 ===============================================================
 Goal: Use lodash (a third-party npm package) to parse and validate input.
 
