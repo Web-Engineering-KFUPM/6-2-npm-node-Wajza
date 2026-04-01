@@ -79,7 +79,7 @@ Example:
   import _ from "lodash";
 
 ===================================================================
-TODO 2: Parse Command Line Arguments (in calculator.js)
+Done 2: Parse Command Line Arguments (in calculator.js)
 ===================================================================
 Goal: Extract the operation and numbers from command line arguments.
 
@@ -216,3 +216,6 @@ After completing all TODOs, test your calculator:
 import { add, subtract, multiply, divide } from "./utils/operations.js";
 import { parseNumbers, isValidOperation } from "./utils/parser.js";
 import _ from "lodash";
+
+const operation = process.argv[2];
+const numbers = process.argv.slice(3);
